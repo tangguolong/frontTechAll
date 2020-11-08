@@ -1,0 +1,151 @@
+.home {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    overflow: hidden;
+
+    .header {
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 3px 10px 0 rgba(217, 220, 234, .5);
+
+        .headerBg {
+            width: 100%;
+            padding: 0 0 0 24px;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            // justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            .hdContent {
+                width: 240px;
+                color: #fff;
+                background: #de3a31;
+                line-height: 60px;
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        margin: 24px;
+
+        .homeLeft {
+            width: 240px;
+            background: #fff;
+            margin: 0 24px 0 0;
+
+            .homeLeftScroll {
+                overflow-y: auto;
+                // height: calc(100% - 20%);
+
+            }
+
+            .homeLeftScroll::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            //   <!--修改 滚动条的 下面 的 样式-->
+            .homeLeftScroll::-webkit-scrollbar-track {
+                background-color: red;
+                -webkit-border-radius: 2em;
+                -moz-border-radius: 2em;
+                border-radius: 2em;
+            }
+
+            //   <!--修改 滑块 -->
+            .homeLeftScroll::-webkit-scrollbar-thumb {
+                background-color: #8b8b8b;
+                -webkit-border-radius: 2em;
+                -moz-border-radius: 2em;
+                border-radius: 2em;
+            }
+
+            .leftItem {
+                font-size: 16px;
+                border: 1px solid #c3c5cf;
+                color: #3e3f65;
+                border-radius: 14px;
+                text-align: center;
+                padding: 12px 12px;
+                margin: 12px 12px;
+                box-sizing: border-box;
+                cursor: pointer;
+            }
+
+        }
+
+        .homeRight {
+            flex: 1 1;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background: #eee;
+            height: -webkit-fill-available;
+
+            .homeRightItem {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex: 1 1;
+                min-width: 300PX;
+                min-height: 120px;
+                margin: 0px 12px 12px 0;
+                background: #fff;
+                border-radius: 4px;
+                box-shadow: 5px 5px 5px #8b8b8b;
+
+                .top {
+                    padding: 12px;
+
+                    .topTitle {
+                        display: flex;
+
+                        img {
+                            width: 39px;
+                            height: 39px;
+                            margin: 0 12px 0 0;
+
+                        }
+
+                        .cheatImg {
+                            margin: 0 12px 0 0;
+                            text-align: center;
+                            width: 39px;
+                            line-height: 39px;
+                            background-color: #c3c4ce;
+                            border-radius: 19.5px;
+                            font-size: 22px;
+                            font-weight: 700;
+                            color: #fff;
+                        }
+                    }
+
+                    .topText {
+                        font-size: 20px;
+                        line-height: 39px;
+                    }
+
+                    .topText1 {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .homeRightItem:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    .footer {
+        width: 100%;
+        min-height: 200px;
+    }
+
+}
