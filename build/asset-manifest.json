@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/frontTechAll/build/static/css/main.2c1ff1aa.chunk.css",
-    "main.js": "/frontTechAll/build/static/js/main.f3727f8f.chunk.js",
-    "main.js.map": "/frontTechAll/build/static/js/main.f3727f8f.chunk.js.map",
+    "main.js": "/frontTechAll/build/static/js/main.5d1374c5.chunk.js",
+    "main.js.map": "/frontTechAll/build/static/js/main.5d1374c5.chunk.js.map",
     "runtime-main.js": "/frontTechAll/build/static/js/runtime-main.750bdc15.js",
     "runtime-main.js.map": "/frontTechAll/build/static/js/runtime-main.750bdc15.js.map",
-    "static/js/2.d362ff48.chunk.js": "/frontTechAll/build/static/js/2.d362ff48.chunk.js",
-    "static/js/2.d362ff48.chunk.js.map": "/frontTechAll/build/static/js/2.d362ff48.chunk.js.map",
+    "static/js/2.7424b800.chunk.js": "/frontTechAll/build/static/js/2.7424b800.chunk.js",
+    "static/js/2.7424b800.chunk.js.map": "/frontTechAll/build/static/js/2.7424b800.chunk.js.map",
     "static/js/3.14b7896a.chunk.js": "/frontTechAll/build/static/js/3.14b7896a.chunk.js",
     "static/js/3.14b7896a.chunk.js.map": "/frontTechAll/build/static/js/3.14b7896a.chunk.js.map",
     "index.html": "/frontTechAll/build/index.html",
     "static/css/main.2c1ff1aa.chunk.css.map": "/frontTechAll/build/static/css/main.2c1ff1aa.chunk.css.map",
-    "static/js/2.d362ff48.chunk.js.LICENSE.txt": "/frontTechAll/build/static/js/2.d362ff48.chunk.js.LICENSE.txt"
+    "static/js/2.7424b800.chunk.js.LICENSE.txt": "/frontTechAll/build/static/js/2.7424b800.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.750bdc15.js",
-    "static/js/2.d362ff48.chunk.js",
+    "static/js/2.7424b800.chunk.js",
     "static/css/main.2c1ff1aa.chunk.css",
-    "static/js/main.f3727f8f.chunk.js"
+    "static/js/main.5d1374c5.chunk.js"
   ]
 }

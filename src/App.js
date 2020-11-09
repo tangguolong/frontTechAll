@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 import Home from './pages/home/index'
 
@@ -18,13 +19,13 @@ import Home from './pages/home/index'
 
 export default function BasicExample() {
   return (
-    <Router>
+    <HashRouter basename="/system">
       <Switch>
           <Route exact path="/">
             <Home />
           </Route>
         </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 
